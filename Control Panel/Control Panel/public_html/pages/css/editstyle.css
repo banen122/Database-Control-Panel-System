@@ -1,0 +1,48 @@
+
+    body{
+        font-size:12px;
+    }
+    th{
+        font-size:12px;
+        }
+    td{
+        font-size:12px;
+    }
+    h1{
+        font-size:35px;  
+    }
+    .btn{
+        font-size:10px;
+    }
+    .sidenav{
+        background-color:#025044;
+    }
+    .element.style{
+        margin-bottom:0; 
+       
+    }
+    .title{
+        background-color:#5b8f6f;
+        height:170px;
+    }
+    h2, .h2{
+        font-size: 26px;
+    }
+    .jumbotron{
+        margin-top:0;
+        margin-bottom:0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 25px;
+    }
+    .footer{
+        margin-bottom: 0;
+        position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;height: 40px;
+            width: 100%;
+            background: grey;
+    }
+    .sidenav a{
+        font-size: 20px;
+    }

@@ -1,0 +1,89 @@
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #18260b;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+    margin: 10px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    border: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: burlywood;
+}
+
+.sidenav a:hover {
+  background: white;
+  color: black;
+}
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+}
+.center{
+    text-align: center;
+}
+.system-title{
+    color: brown;font-weight: 999
+}
+.sub-title{
+    text-align: right;
+}
+.main-title{
+    border-bottom: solid;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+.title{
+    background: #46532e;
+    color: wheat;
+}
+.active{
+    background: white;
+    color: black !important;
+}
+.line{
+    border-bottom: 1px solid #18260b;
+    width: 96%;
+    margin: 3% 2%;
+}
+.footer-add{
+    background: #46532e;
+    color: wheat;
+    margin-top: 2rem;
+}
+.table-button{
+    margin: 10px;
+}
+.img-refresh{
+    cursor: pointer;
+}
+.list-group{
+    max-height: 200px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.custom-item-list{
+    padding: 5px 25px !important;
+}
+.attention-message{
+    padding: 0.2em 1em;
+    margin-top: 2px !important;
+    color: red;
+    border-radius: 15px;
+    background: #ff00000a;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
